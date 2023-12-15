@@ -1,0 +1,618 @@
+<!doctype html>
+<html amp>
+<head>
+    <meta charset="utf-8">
+    <title>Roga & Kopyta</title>
+    <link rel="canonical" href="your-page.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-custom>
+      @media all and (min-width:900px) {
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100vh;
+                max-width: 1000px;
+                min-width: 900px;
+                margin: 0 auto;
+                align-items: center;
+            }
+            header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 15%;
+                margin-top: 1%;
+                margin-bottom: 6%;
+                img {
+                    margin-top: 0.5%;
+                    position: absolute;
+                    min-width: 7.8%;
+                    height: 150px;
+                }
+                h1 {
+                    color: #50372b;
+                    display: flex;
+                    font-size: 300%;
+                }
+            }
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: lighter;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 85%;
+                width: 100%;
+                background: linear-gradient(to bottom, #eeeeee, #ffffff);
+            }
+            footer {
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                height: 20%;
+            }
+            #verh {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+                height: 50%;
+            }
+            #roga {
+                margin-left: 4%;
+            }
+            #i {
+                margin-left: 5%;
+            }
+            #Kopyta {
+                margin-left: 5%;
+            }
+            #niz {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 0;
+                width: 100%;
+                h2 {
+                    font-size: 100%;
+                    color: #c9c9c9;
+                    margin: 0;
+                    margin-left: 4%;
+                    margin-right: 9%;
+                    margin-top: 2%;
+                }
+            }
+            nav {
+                text-align: center;
+                width: 100%;
+                position: absolute;
+                top: 19%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 900px;
+                min-width: 800px;
+                background-color: #b2823b;
+                height: 4%;
+                img {
+                    display: none;
+                }
+            }
+            ul {
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 0;
+                width: 100%;
+            }
+            li {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                color: white;
+                display: inline-block;
+                margin-right: 0;
+            }
+            #perv {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 90%;
+                height: 40%;
+                margin-top: 2%;
+                border-bottom: solid 1px #787878;
+            }
+            article {
+                h2 {
+                    font-size: 85%;
+                    padding-right: 10%;
+                    color: #787878;
+                    margin: 0;
+                    margin-top: 1%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: lighter;
+                }
+                h1 {
+                    margin: 0;
+                    color: #50372b;
+                    font-size: 250%;
+                }
+                img {
+                    height: 70%;
+                    width: 70%;
+                    margin-top: 3%;
+                }
+            }
+            #text {
+                margin-top: 3%;
+            }
+            #vtor {
+                width: 90%;
+                display: flex;
+                flex-direction: row;
+                border-bottom: solid 12px #6b6b6b;
+                h1 {
+                    font-size: 180%;
+                    margin-bottom: 2%;
+                }
+                h2 {
+                    font-size: 100%;
+                    margin-bottom: 2%;
+                }
+            }
+            #text2 {
+                margin-top: 2%;
+                margin-bottom: 4%;
+            }
+            #foot {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            #text3 {
+                display: flex;
+                margin-top: 2%;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        @media screen and (min-width:421px) and (max-width:899px) {
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                margin: 0 auto;
+                align-items: center;
+            }
+            header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 15%;
+                margin-top: 1%;
+                margin-bottom: 6%;
+                img {
+                    opacity: 0;
+                    position: absolute;
+                }
+                h1 {
+                    color: #50372b;
+                    display: flex;
+                    font-size: 3em;
+                }
+            }
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: lighter;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 85%;
+                width: 100%;
+                background: linear-gradient(to bottom, #eeeeee, #ffffff);
+            }
+            footer {
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                height: 20%;
+            }
+            #verh {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+                height: 10%;
+            }
+            #i {
+                margin-left: 3%;
+            }
+            #Kopyta {
+                margin-left: 3%;
+            }
+            #niz {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                width: 100%;
+                h2 {
+                    font-size: 100%;
+                    color: #c9c9c9;
+                    margin: 0;
+                }
+            }
+            nav {
+                text-align: center;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #b2823b;
+                img {
+                    display: none;
+                }
+            }
+            ul {
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 0;
+                width: 100%;
+            }
+            li {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                color: white;
+                display: inline-block;
+                margin-right: 2%;
+            }
+            #perv {
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                height: 40%;
+                margin-top: 2%;
+                border-bottom: solid 1px #787878;
+            }
+            article {
+                h2 {
+                    font-size: 0.9em;
+                    padding: 0;
+                    color: #787878;
+                    margin: 0;
+                    margin-top: 1%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: lighter;
+                }
+                h1 {
+                    margin: 0;
+                    color: #50372b;
+                    font-size: 1.8em;
+                    text-align: center;
+                }
+            }
+            #text {
+                margin-top: 3%;
+                h2 {
+                    margin-bottom: 3%;
+                }
+            }
+            #vtor {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                border-bottom: solid 12px #6b6b6b;
+                h1 {
+                    font-size: 1.8em;
+                    margin-bottom: 2%;
+                }
+                h2 {
+                    font-size: 0.9em;
+                    margin-bottom: 2%;
+                }
+            }
+            #text2 {
+                margin-top: 2%;
+                margin-bottom: 4%;
+            }
+            #foot {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            #text3 {
+                display: flex;
+                margin-top: 2%;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        @media screen and (max-width:420px) {
+            header {
+                img {
+                    opacity: 0;
+                    margin-top: 0.5%;
+                    position: absolute;
+                    min-width: 7.8%;
+                    max-height: 15%;
+                    min-height: 14%;
+                }
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 15%;
+                margin-top: 1%;
+                margin-bottom: 6%;
+                h1 {
+                    color: #50372b;
+                    display: flex;
+                    font-size: 2em;
+                }
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 100%;
+                min-width: 100%;
+                margin: 0 auto;
+                align-items: center;
+            }
+            #verh {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 50%;
+            }
+            nav {
+                text-align: center;
+                width: 100%;
+                background-color: #b2823b;
+                img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: lighter;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 85%;
+                width: 100%;
+                background: linear-gradient(to bottom, #eeeeee, #ffffff);
+            }
+            footer {
+                width: 90%;
+                height: 20%;
+            }
+            #roga {
+                margin-left: 0;
+            }
+            #i {
+                margin-left: 2%;
+            }
+            #Kopyta {
+                margin-left: 2%;
+            }
+            #niz {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                width: 100%;
+                h2 {
+                    font-size: 100%;
+                    color: #c9c9c9;
+                    margin: 0;
+                }
+            }
+            ul {
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+                margin-top: 1%;
+                margin-bottom: 1%;
+            }
+            li {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                margin: 0 auto;
+                margin-top: 1%;
+                margin-bottom: 1%;
+                color: white;
+                opacity: 0;
+                position: absolute;
+            }
+            #perv {
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                height: 40%;
+                margin-top: 2%;
+                border-bottom: solid 1px #787878;
+            }
+            article {
+                h2 {
+                    font-size: 0.9em;
+                    padding-right: 10%;
+                    color: #787878;
+                    margin: 0;
+                    margin-top: 1%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: lighter;
+                    padding: 0;
+                    margin-bottom: 4%;
+                }
+                h1 {
+                    text-align: center;
+                    margin: 0;
+                    color: #50372b;
+                    font-size: 1.3em;
+                }
+                img {
+                    height: 70%;
+                    width: 70%;
+                    margin-top: 3%;
+                    margin-bottom: 3%;
+                }
+            }
+            #text {
+                margin-top: 3%;
+            }
+            #vtor {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                border-bottom: solid 12px #6b6b6b;
+                h1 {
+                    font-size: 1.3em;
+                    margin-bottom: 2%;
+                }
+                h2 {
+                    font-size: 0.9em;
+                    margin-bottom: 2%;
+                }
+            }
+            #text2 {
+                margin-top: 2%;
+                margin-bottom: 4%;
+            }
+            #foot {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+            }
+            #text3 {
+                display: flex;
+                margin-top: 2%;
+                flex-direction: column;
+                align-items: center;
+                h2 {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    </style>
+    <!-- Другие необходимые AMP компоненты -->
+</head>
+<body>
+    <header>
+        <section id="verh">
+            <div id="roga">
+                <h1> Roga </h1>
+            </div>
+
+            <div id="i">
+                <h1> & </h1>
+            </div>
+            <div id="Kopyta">
+                <h1> Kopyta </h1>
+            </div>
+            <amp-img src="Безимени-1.png" width="300" height="200" alt=".png"></amp-img>
+        </section>
+        <section id="niz">
+            <h2>International worldwide cooperation</h2>
+            <h2>for horns and hooves storage</h2>
+        </section>
+    </header>
+    <nav>
+        <ul>
+            <li class="menu__item">HORNS STORAGE</li>
+            <li class="menu__item">HOOVES STORAGE</li>
+            <li class="menu__item">OUR ACHIEVMENTS</li>
+            <li class="menu__item">SEASON PRICES</li>
+            <li class="menu__item">CONTACTS</li>
+        </ul>
+        <amp-img src="hamburger-icon-png-7.png" width="50" height="50" alt=".png"></amp-img>
+    </nav>
+
+    <main>
+        <article id="perv">
+            <section id="text">
+                <h1>Our history</h1>
+                <h2>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo...</h2>
+            </section>
+            <amp-img src="Безимени-2.png" width="300" height="200" alt=".png"></amp-img>
+        </article>
+        <article id="vtor">
+            <section id="text2">
+                <h1>Horns</h1>
+                <h2>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</h2>
+            </section>
+            <section id="text2">
+                <h1>Hooves</h1>
+                <h2>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</h2>
+            </section>
+            <section id="text2">
+                <h1>Achievements</h1>
+                <h2>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</h2>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <article id="foot">
+            <section id="text3">
+                <h1>Roga & Kopyta</h1>
+                <h2>International worldwide cooperation for horns and hooves storage <br />(c) 2013. All rights reserved</h2>
+            </section>
+        </article>
+    </footer>
+</body>
+</html>
